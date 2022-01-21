@@ -1,0 +1,30 @@
+{
+  "name": "esp-abuse.json",
+  "version": "1.0.0",
+  "description": "Abuse email, forms and policies for major ESP (email service providers).",
+  "main": "esp-abuse.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpha14/esp-abuse.json.git"
+  },
+  "keywords": [
+    "abuse",
+    "abuse-reporting",
+    "esp",
+      "json-dataset",
+    "json"
+  ],
+  "author": "alpha14",
+  "license": "CC-BY-3.0",
+  "bugs": {
+    "url": "https://github.com/alpha14/esp-abuse.json/issues"
+  },
+  "homepage": "https://github.com/alpha14/esp-abuse.json#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
