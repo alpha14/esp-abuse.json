@@ -26,6 +26,6 @@ Contributions are welcome !
 ## Description
 This Json version is an array of objects of the following shape:
 - name
-- abuse email
-- online report form
-- spam policy
+- abuse email (optional)
+- online report form URL (optional)
+- spam policy URL (optional)
