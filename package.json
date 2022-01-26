@@ -4,7 +4,7 @@
   "description": "Abuse email, forms and policies for major ESP (email service providers).",
   "main": "esp-abuse.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./test/dataset.js",
     "serve": "npx lite-server"
   },
   "repository": {
@@ -15,7 +15,7 @@
     "abuse",
     "abuse-reporting",
     "esp",
-      "json-dataset",
+    "json-dataset",
     "json"
   ],
   "author": "alpha14",
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/alpha14/esp-abuse.json#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "schema-inspector": "^2.0.1"
   }
 }
