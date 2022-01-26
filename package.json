@@ -4,7 +4,7 @@
   "description": "Abuse email, forms and policies for major ESP (email service providers).",
   "main": "esp-abuse.json",
   "scripts": {
-    "test": "./test/dataset.js",
+    "test": "npx eslint '**/*.js' && ./test/dataset.js",
     "serve": "npx lite-server"
   },
   "repository": {
@@ -25,6 +25,11 @@
   },
   "homepage": "https://github.com/alpha14/esp-abuse.json#readme",
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
     "lite-server": "^2.6.1"
   },
   "dependencies": {
