@@ -97,6 +97,11 @@
       "email": "abuse@rapidmail.de"
     },
     {
+      "name": "salesforce marketing cloud",
+      "email": "abuse@salesforce.com",
+      "policy": "https://www.salesforce.com/company/abuse/"
+    },
+    {
       "name": "selligent",
       "email": "abuse@selligent.com",
       "policy": "https://www.selligent.com/anti-spam-policy/"
