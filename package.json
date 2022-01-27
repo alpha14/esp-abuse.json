@@ -4,7 +4,9 @@
   "description": "Abuse email, forms and policies for major ESP (email service providers).",
   "main": "esp-abuse.json",
   "scripts": {
-    "test": "npx eslint '**/*.js' && ./test/dataset.js",
+    "commitmsg": "npx commitlint --edit --verbose",
+    "lint": "npx eslint '**/*.js'",
+    "test": "npm run lint && node ./test/dataset.js",
     "serve": "npx lite-server"
   },
   "repository": {
@@ -33,6 +35,8 @@
     "lite-server": "^2.6.1"
   },
   "dependencies": {
+    "@commitlint/config-conventional": "^16.0.0",
+    "commitlint": "^16.1.0",
     "schema-inspector": "^2.0.1"
   }
 }
