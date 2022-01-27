@@ -47,6 +47,11 @@
       "policy": "https://www.getresponse.com/legal/antispam"
     },
     {
+      "name": "klaviyo",
+      "email": "abuse@klaviyo.com",
+      "policy": "https://www.klaviyo.com/legal/acceptable-use-policy"
+    },
+    {
       "name": "mailchimp",
       "email": "abuse@mailchimp.com",
       "form": "https://mailchimp.com/contact/abuse/",
