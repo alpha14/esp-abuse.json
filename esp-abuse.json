@@ -89,6 +89,11 @@
       "policy": "https://www.mailup.com/anti-spam-policy/"
     },
     {
+      "name": "mapp",
+      "email": "abuse@mapp.com",
+      "policy": "https://mapp.com/acceptable-use-policy/"
+    },   
+    {
       "name": "postmark",
       "email": "abuse@postmarkapp.com"
     },
