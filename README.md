@@ -10,6 +10,8 @@
 
 Dataset containing abuse email, forms and policies for major ESP (email service providers).
 
+Website serving the dataset: https://alpha14.github.io/esp-abuse.json
+
 Inspired from a [spam resource article](https://www.spamresource.com/2020/07/quick-list-esp-abusespam-contact-list.html).
 
 ## What is it?
