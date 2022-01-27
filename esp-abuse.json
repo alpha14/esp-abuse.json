@@ -112,6 +112,12 @@
       "email": "abuse@sendgrid.com"
     },
     {
+      "name": "sendlane",
+      "email": "abuse@sendlane.com",
+      "form": "https://www.sendlane.com/report-abuse",
+      "policy": "https://help.sendlane.com/article/219-can-spam-act-and-sendlane"
+    },
+    {
       "name": "turboSMTP",
       "email": "abuse@serversmtp.com",
       "policy": "https://serversmtp.com/anti-spam-policy/"
