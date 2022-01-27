@@ -94,6 +94,11 @@
       "policy": "https://mapp.com/acceptable-use-policy/"
     },   
     {
+      "name": "marketo",
+      "email": "abuse@marketo.com",
+      "policy": "https://www.adobe.com/legal/terms/aup.html"
+    },
+    {
       "name": "postmark",
       "email": "abuse@postmarkapp.com"
     },
