@@ -33,13 +33,13 @@
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0",
     "lite-server": "^2.6.1"
   },
   "dependencies": {
     "@commitlint/config-conventional": "^16.0.0",
     "commitlint": "^16.1.0",
     "cpy": "^8.1.2",
+    "prettier": "^2.5.1",
     "schema-inspector": "^2.0.1"
   }
 }

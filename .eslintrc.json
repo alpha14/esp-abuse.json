@@ -1,4 +1,5 @@
 {
+    "plugins": ["node", "precommended"],
     "env": {
         "browser": true,
         "commonjs": true,
@@ -6,6 +7,8 @@
         "node": true
     },
     "extends": [
+        "eslint:recommended",
+        "plugin:node/recommened",
         "standard"
     ],
     "parserOptions": {
