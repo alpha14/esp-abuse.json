@@ -8,7 +8,8 @@ $('#table').bootstrapTable({
   }, {
     field: 'email',
     title: 'Abuse email',
-    sortable: true
+    sortable: true,
+    formatter: 'createLink'
   }, {
     field: 'form',
     title: 'Abuse form',
@@ -38,11 +39,19 @@ $('#table').bootstrapTable({
 })
 
 function createLink (value, row, index, field) { // eslint-disable-line no-unused-vars
-  if (value != null) {
+  if (value == null) return '-'
+
+  if (field === 'email') {
     return [
-      '<a class="like" href="' + value + '" title="' + field + '">',
+      `<a class="link" href="mailto:${value}" title="${field}">`,
+      `${value}`,
+      '</a>'
+    ].join('')
+  } else {
+    return [
+      `<a class="link" href="${value}" title="${field}">`,
       '<i class="fa fa-link"></i>',
       '</a>'
     ].join('')
-  } else return '-'
+  }
 }
