@@ -37,10 +37,10 @@ $('#table').bootstrapTable({
   serverSort: false
 })
 
-function createLink (value, row, index) { // eslint-disable-line no-unused-vars
+function createLink (value, row, index, field) { // eslint-disable-line no-unused-vars
   if (value != null) {
     return [
-      '<a class="like" href="' + value + '" title="Like">',
+      '<a class="like" href="' + value + '" title="' + field + '">',
       '<i class="fa fa-link"></i>',
       '</a>'
     ].join('')
