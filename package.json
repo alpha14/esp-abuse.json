@@ -5,8 +5,8 @@
   "main": "esp-abuse.json",
   "scripts": {
     "commitmsg": "npx commitlint --edit --verbose",
-    "lint": "eslint . --ext '.js' --cache",
-    "lint-fix": "eslint . --ext '.js' --cache --fix",
+    "lint": "npx eslint . --ext '.js' --cache",
+    "lint-fix": "npx eslint . --ext '.js' --cache --fix",
     "test": "npm run lint && node ./test/dataset.js",
     "build": "node ./scripts/build.js",
     "serve": "npx lite-server --baseDir='build'"
