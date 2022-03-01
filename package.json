@@ -1,6 +1,7 @@
 {
   "name": "esp-abuse.json",
   "version": "1.0.0",
+  "type": "module",
   "description": "Abuse email, forms and policies for major ESP (email service providers).",
   "main": "esp-abuse.json",
   "scripts": {

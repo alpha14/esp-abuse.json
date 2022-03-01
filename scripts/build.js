@@ -1,20 +1,23 @@
 #!/bin/env node
 
-const fs = require('fs')
-const path = require('path')
-const cpy = require('cpy')
+import fs from 'fs'
+import path from 'path'
+import cpy from 'cpy'
+import { fileURLToPath } from 'url'
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
-function deleteBuild (dir) {
+const deleteBuild = async (dir) => {
   if (fs.existsSync(dir)) {
-    fs.rm(dir, { recursive: true }, (err) => {
+    fs.rmSync(dir, { recursive: true, force: true }, (err) => {
       if (err) {
-        console.error(`Error while deleting ${dir}.`)
+        console.error(` ${err}.`)
       }
     })
   }
 }
 
-async function copyFiles () {
+const copyFiles = async () => {
   await cpy('front/*', 'build', {
     flat: true
   })
@@ -25,4 +28,4 @@ async function copyFiles () {
 }
 
 deleteBuild(path.resolve(__dirname, '..', 'build'))
-copyFiles()
+  .then(copyFiles())
