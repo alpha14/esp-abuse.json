@@ -1,8 +1,11 @@
 #!/bin/env node
 
-const fs = require('fs')
-const path = require('path')
-const inspector = require('schema-inspector')
+import fs from 'fs'
+import path from 'path'
+import inspector from 'schema-inspector'
+import { fileURLToPath } from 'url'
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 const validation = {
   type: 'object',
@@ -25,7 +28,7 @@ const validation = {
   }
 }
 
-function validateFile (file) {
+const validateFile = (file) => {
   let jsonData = {}
 
   try {
@@ -44,7 +47,7 @@ function validateFile (file) {
   return true
 }
 
-function testJsonFile (filePath) {
+const testJsonFile = (filePath) => {
   if (validateFile(filePath) === false) {
     process.exit(1)
   } else {
