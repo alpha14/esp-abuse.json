@@ -47,6 +47,11 @@
       "policy": "https://www.getresponse.com/legal/antispam"
     },
     {
+      "name": "gmail",
+      "form": "https://support.google.com/mail/contact/abuse",
+      "policy": "https://support.google.com/a/answer/178266"
+    },
+    {
       "name": "klaviyo",
       "email": "abuse@klaviyo.com",
       "policy": "https://www.klaviyo.com/legal/acceptable-use-policy"
