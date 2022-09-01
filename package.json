@@ -30,7 +30,7 @@
   },
   "homepage": "https://alpha14.github.io/esp-abuse.json",
   "devDependencies": {
-    "eslint": "^8.20.0",
+    "eslint": "^8.23.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
