@@ -6,8 +6,8 @@
   "main": "esp-abuse.json",
   "scripts": {
     "commitmsg": "npx commitlint --edit --verbose",
-    "lint": "npx eslint . --ext '.js' --cache",
-    "lint-fix": "npx eslint . --ext '.js' --cache --fix",
+    "lint": "npx eslint . --ext '.js,.json' --cache",
+    "lint-fix": "npx eslint . --ext '.js,.json' --cache --fix",
     "test": "npm run lint && node ./test/dataset.js",
     "build": "node ./scripts/build.js",
     "serve": "npx lite-server --baseDir='build'"
@@ -30,9 +30,10 @@
   },
   "homepage": "https://alpha14.github.io/esp-abuse.json",
   "devDependencies": {
-    "eslint": "^8.23.0",
+    "eslint": "^8.24.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.1",
     "lite-server": "^2.6.1"
