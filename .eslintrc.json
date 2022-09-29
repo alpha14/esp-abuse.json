@@ -6,7 +6,8 @@
         "node": true
     },
     "extends": [
-        "standard"
+        "standard",
+        "plugin:json/recommended"
     ],
     "parserOptions": {
         "ecmaVersion": 2022
