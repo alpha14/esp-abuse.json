@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@commitlint/config-conventional": "^17.2.0",
-    "commitlint": "^17.1.2",
+    "commitlint": "^17.2.0",
     "cpy": "^9.0.1",
     "schema-inspector": "^2.0.1"
   }
