@@ -42,6 +42,6 @@
     "@commitlint/config-conventional": "^17.2.0",
     "commitlint": "^17.3.0",
     "cpy": "^9.0.1",
-    "schema-inspector": "^2.0.1"
+    "schema-inspector": "^2.0.2"
   }
 }
