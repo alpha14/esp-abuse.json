@@ -8,6 +8,11 @@ updates:
     schedule:
       interval: "monthly"
     versioning-strategy: increase
+    groups:
+       # Specify a name for the group, which will be used in PR titles and branch names
+       dev-dependencies:
+          patterns:
+            - "*"  
 
   - package-ecosystem: "github-actions"
     directory: "/"
