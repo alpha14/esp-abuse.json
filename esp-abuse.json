@@ -127,10 +127,10 @@
       "policy": "https://www.sender.net/anti-spam-policy/"
     },
     {
-      "name": "sendinblue",
-      "email": "abuse@sendinblue.com",
-      "form": "https://www.sendinblue.com/contact/#abuse",
-      "policy": "https://www.sendinblue.com/legal/antispampolicy/"
+      "name": "brevo",
+      "email": "abuse@brevo.com",
+      "form": "https://www.brevo.com/contact/#abuse",
+      "policy": "https://www.brevo.com/legal/antispampolicy/"
     },
     {
       "name": "sendgrid",
