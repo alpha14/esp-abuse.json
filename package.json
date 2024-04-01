@@ -39,9 +39,9 @@
     "lite-server": "^2.6.1"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^19.0.3",
-    "commitlint": "^19.0.3",
-    "cpy": "^11.0.0",
+    "@commitlint/config-conventional": "^19.1.0",
+    "commitlint": "^19.2.1",
+    "cpy": "^11.0.1",
     "schema-inspector": "^2.1.0"
   }
 }
