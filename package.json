@@ -30,17 +30,17 @@
   },
   "homepage": "https://alpha14.github.io/esp-abuse.json",
   "devDependencies": {
-    "eslint": "^8.57.0",
+    "eslint": "^9.4.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-json": "^4.0.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-promise": "^6.2.0",
     "lite-server": "^2.6.1"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^19.1.0",
-    "commitlint": "^19.2.1",
+    "@commitlint/config-conventional": "^19.2.2",
+    "commitlint": "^19.3.0",
     "cpy": "^11.0.1",
     "schema-inspector": "^2.1.0"
   }
